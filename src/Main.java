@@ -9,5 +9,11 @@ public class Main {
         }
 
         // TODO: Complete this lab!
+
+        Explorer explorer = new Explorer();
+        explorer.scan(DungeonMap.MAP);
+        explorer.findPaths();
+        explorer.findMST();
+
     }
 }
